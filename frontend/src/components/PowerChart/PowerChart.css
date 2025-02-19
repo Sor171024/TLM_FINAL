@@ -1,0 +1,39 @@
+.power-chart {
+  flex: 2.5;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
+  margin-top: -1.5rem;
+}
+/*
+.chart-container {
+  height: 300px;
+  display: flex;
+  align-items: center; จัดตัวหนังสือแนวตั้ง
+  justify-content: center; จัดหนังสือแนวนอน
+  border: 1px solid #ddd;
+  border-radius: 4px;
+} */
+
+/* .power-chart {
+  flex: 2.5;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-left: 40px;
+  margin-top: -1.5rem;
+} */
+
+.power-chart h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.chart-container {
+  border-radius: 4px;
+  padding: 1rem;
+  display: flex;
+}

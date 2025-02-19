@@ -1,0 +1,11 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgb(220, 220, 220);
+}
+
+.dashboard-charts {
+  display: flex;
+  gap: 2rem;
+}

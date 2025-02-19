@@ -1,0 +1,112 @@
+.usage-conclude {
+  display: flex;
+  padding: 2rem;
+}
+
+.conclude-kw {
+  display: grid;
+  padding: 18px 31px;
+  background-color: rgb(270, 270, 270);
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.conclude-kw-a {
+  align-items: center;
+  text-align: center;
+}
+.conclude-kw-b {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.conclude-kw-c {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.conclude-kVAR {
+  display: grid;
+  padding: 18px 31px;
+  background-color: rgb(270, 270, 270);
+  height: 200px;
+  width: 320px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.conclude-kVAR-a {
+  align-items: center;
+  text-align: center;
+}
+.conclude-kVAR-b {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.conclude-kVAR-c {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.conclude-lt-kw {
+  display: grid;
+  padding: 18px 31px;
+  background-color: rgb(270, 270, 270);
+  height: 200px;
+  width: 320px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.conclude-lt-kw-a {
+  align-items: center;
+  text-align: center;
+}
+.conclude-lt-kw-b {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.conclude-lt-kw-c {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.conclude-lt-kVAR {
+  display: grid;
+  padding: 18px 31px;
+  background-color: rgb(270, 270, 270);
+  border-radius: 15px;
+  height: 200px;
+  width: 320px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.conclude-lt-kVAR-a {
+  align-items: center;
+  text-align: center;
+}
+.conclude-lt-kVAR-b {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.conclude-lt-kVAR-c {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+h1 {
+  color: #5ba1eb;
+}

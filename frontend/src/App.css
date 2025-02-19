@@ -1,0 +1,58 @@
+/* .app {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; ต้องคอมเมน์ไว้
+}
+
+.main-layout {
+  display: flex;
+  height: 100%;
+  width: 100%;
+} */
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ใช้ min-height แทน height เพื่อให้ขยายตามเนื้อหา */
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column; /* จัดเรียงเป็นคอลัมน์โดย default สำหรับ mobile */
+  width: 100%;
+  flex-grow: 1; /* ให้ขยายเต็มพื้นที่ที่เหลือ */
+}
+
+/* Media Queries สำหรับ Responsive Design */
+@media (min-width: 768px) {
+  .main-layout {
+    flex-direction: row; /* จัดเรียงเป็นแถวในหน้าจอใหญ่ */
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-layout {
+    max-width: 1200px; /* จำกัดความกว้างสูงสุดสำหรับหน้าจอใหญ่ */
+    margin: 0 auto; /* จัดให้อยู่กลาง */
+  }
+}
+.sidebar {
+  flex: 1; /* ให้ sidebar ขยายตามเนื้อหา */
+  max-width: 250px; /* จำกัดความกว้างสูงสุด */
+}
+
+.main-content {
+  flex: 3; /* ให้ main content มีพื้นที่มากกว่า sidebar */
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    max-width: 100%; /* ให้ sidebar เต็มความกว้างในหน้าจอเล็ก */
+  }
+}

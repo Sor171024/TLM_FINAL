@@ -1,0 +1,40 @@
+/* .transformer-status {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-right: 40px;
+  margin-top: -1.5rem;
+}
+
+.transformer-status h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.pie-chart {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.transformer-status {
+  background-color: white;
+  padding: 1rem; /* ใช้ rem แทน px */
+  border-radius: 0.5rem; /* ใช้ rem แทน px */
+  margin-right: 2.5rem; /* ใช้ rem แทน px */
+  margin-top: -1.5rem; /* ใช้ rem แทน px */
+}
+
+.transformer-status h3 {
+  margin-bottom: 1rem; /* ใช้ rem แทน px */
+  font-size: 1.25rem; /* ใช้ rem แทน px */
+  font-weight: 600;
+}
+
+.pie-chart {
+  height: 18.75rem; /* ใช้ rem แทน px (300px / 16px = 18.75rem) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
