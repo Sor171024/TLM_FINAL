@@ -16,17 +16,17 @@
 
 .box-alert-3 {
   align-items: center;
-  justify-items: center;
+  justify-items: between;
   position: relative;
-  right: 1800%;
+  /* right: 1500%; */
 }
-.box-account-1 {
+/* .box-account-1 {
   align-items: center;
   text-align: center;
   justify-content: center;
   position: absolute;
   right: 5%;
-}
+} */
 
 a {
   text-decoration: none;

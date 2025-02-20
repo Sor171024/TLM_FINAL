@@ -12,7 +12,7 @@
 }
 
 .top-ten-usage table {
-  width: 100%;
+  /* width: 100%; */
   border-collapse: collapse;
 }
 
@@ -29,13 +29,4 @@
 
 .top-ten-usage tr:nth-child(even) {
   background-color: #f9f9f9;
-}
-
-.bottom {
-  background-color: #f9f9f9;
-  margin-top: 1rem;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
 }

@@ -1,4 +1,4 @@
-.power-chart {
+/* .power-chart {
   flex: 2.5;
   background-color: white;
   padding: 1rem;
@@ -6,34 +6,92 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-left: 40px;
   margin-top: -1.5rem;
-}
+  container-type: inline-size;
+} */
 /*
-.chart-container {
-  height: 300px;
-  display: flex;
-  align-items: center; จัดตัวหนังสือแนวตั้ง
-  justify-content: center; จัดหนังสือแนวนอน
-  border: 1px solid #ddd;
-  border-radius: 4px;
-} */
-
-/* .power-chart {
-  flex: 2.5;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 12px;
-  margin-left: 40px;
-  margin-top: -1.5rem;
-} */
-
 .power-chart h3 {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
 .chart-container {
   border-radius: 4px;
   padding: 1rem;
-  display: flex;
 }
+@media (max-width: 600px) {
+  .power-chart {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .power-chart {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .power-chart {
+    margin-left: 0;
+    text-align: center;
+  }
+} */
+/*--------------------------------------*/
+/* .power-chart {
+  display: flex;
+  flex: 2.5;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.power-chart-main {
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+Responsive
+@media (max-width: 1024px) {
+  .power-chart-main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .power-chart-main {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .chart-container {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .power-chart-main {
+    padding: -20px;
+  }
+
+  .chart-container {
+    min-height: 200px;
+  }
+} */

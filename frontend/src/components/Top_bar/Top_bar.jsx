@@ -30,57 +30,58 @@ const Top_bar = () => {
   return (
     <header className="header">
       <div className="box-1">
-        <div className="box-2">
-          <div className="box-3">
-            <div className="box-4">Transformer</div>
-            <a className="p-0" href="">
-              <FontAwesomeIcon
-                icon={faCheckCircle}
-                style={{ color: "green", strokeWidth: "3" }}
-              />
-              <span className="nav-text">{data.totalonline}</span>
-            </a>
-            <span className="nav-text">:</span>
-            <a className="p-0" href="">
-              <FontAwesomeIcon
-                icon={faExclamationTriangle}
-                style={{ color: "orange", strokeWidth: "3" }}
-              />
-              <span className="nav-text">{data.Device_Alarms}</span>
-            </a>
-          </div>
+        {/* <div className="box-2"> */}
+        <div className="box-3">
+          <div className="box-4">Transformer</div>
+          <a className="p-0" href="">
+            <FontAwesomeIcon
+              icon={faCheckCircle}
+              style={{ color: "green", strokeWidth: "3" }}
+            />
+            <span className="nav-text">{data.totalonline}</span>
+          </a>
+          <span className="nav-text">:</span>
+          <a className="p-0" href="">
+            <FontAwesomeIcon
+              icon={faExclamationTriangle}
+              style={{ color: "orange", strokeWidth: "3" }}
+            />
+            <span className="nav-text">{data.Device_Alarms}</span>
+          </a>
         </div>
+        {/* </div> */}
       </div>
-      <div className="box-alert-1">
-        <div className="box-alert-2">
-          <div className="box-alert-3">
-            <div className="box-alert-4">Alert</div>
-            <a className="nav-link p-0" href="">
-              <span className="nav-text">
-                <FontAwesomeIcon
-                  icon={faExclamationTriangle}
-                  style={{ color: "red", strokeWidth: "3" }}
-                />
-                {data ? data.totaloffline : "Loading..."}
-              </span>
-            </a>
-          </div>
-        </div>
+
+      {/* <div className="box-alert-1"> */}
+      {/* <div className="box-alert-2"> */}
+      <div className="box-alert-3">
+        <div className="box-alert-4">Alert</div>
+        <a className="nav-link p-0" href="">
+          <span className="nav-text">
+            <FontAwesomeIcon
+              icon={faExclamationTriangle}
+              style={{ color: "red", strokeWidth: "3" }}
+            />
+            {data ? data.totaloffline : "Loading..."}
+          </span>
+        </a>
       </div>
+      {/* </div> */}
+      {/* </div> */}
 
       <hr className="divider-line" />
 
-      <div className="box-account-1">
-        <div className="box-account-2">
-          <a href="">
-            <span className="bxa-1">
-              Welcome,<strong>admin</strong>
-            </span>
-            &nbsp;&nbsp;&nbsp;
-            <FontAwesomeIcon icon={faUser} className="dropdown-icon" />
-          </a>
-        </div>
+      {/* <div className="box-account-1"> */}
+      <div className="box-account-2">
+        <a href="">
+          <span className="bxa-1">
+            Welcome,<strong>admin</strong>
+          </span>
+          &nbsp;&nbsp;&nbsp;
+          <FontAwesomeIcon icon={faUser} className="dropdown-icon" />
+        </a>
       </div>
+      {/* </div> */}
 
       <hr className="divider-line" />
 
